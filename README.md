@@ -22,8 +22,10 @@ Basically this package contains two django management commands:
 7. Import any missing libraries.
 
 PS: The code generator will append commented codes at the end of each file
+
 PS 2: code generator will generate the following:
-1.List view for each model
-2.Add/edit view for each model
-3.Detail view for each model item
-4.All forms are rendered using crispy forms and validated with django-parsly
+
+1. List view for each model
+2. Add/edit view for each model
+3. Detail view for each model item
+4. All forms are rendered using crispy forms and validated with django-parsly
