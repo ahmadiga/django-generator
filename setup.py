@@ -9,7 +9,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-generator',
-    description='django-generator',
+    description='small code generator to generate basic functionality of websites',
     version="0.01",
     long_description=open('README.rst').read(),
     author='Ahmad Bazadough',

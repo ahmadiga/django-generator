@@ -9,7 +9,7 @@ from django_generator.view_make import View
 
 # context = {'model': self.model,
 #            "name": self.model.__name__}
-# self.small_serilizer_text = render_to_string('sit_builder/small-serializer.html', context)
+# self.small_serilizer_text = render_to_string('django_generator/small-serializer.html', context)
 # self.small_serilizer_text = os.linesep.join([s for s in self.small_serilizer_text.splitlines() if s.strip()])
 class Command(BaseCommand):
     help = 'Generate default CRUD operations for an app based on its models'
