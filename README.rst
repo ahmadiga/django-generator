@@ -1,15 +1,15 @@
 =====
-sit-builder
+django generator
 =====
 
-sit-builder is a simple Django app to conduct Web-based sit-builder
+django generator is a small code generator to generate basic functionality of websites
 
 
 Quick start
 -----------
-1. instal the package using "pip install git+git://github.com/ahmadiga/sit-builder.git"
+1. install the package using "pip install git+git://github.com/ahmadiga/django-generator.git"
 
-2. Add "sit-builder" to your INSTALLED_APPS setting like this::
+2. Add "django_generator" to your INSTALLED_APPS setting like this:
 
     INSTALLED_APPS = [
         ...
