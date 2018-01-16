@@ -15,6 +15,7 @@ setup(
     author='Ahmad Bazadough',
     author_email='ahmadiga1985@hotmail.com',
     url='https://github.com/S-Intelligent-Technologies/django-generator',
+    download_url='https://github.com/ahmadiga/django-generator/archive/0.01.tar.gz',
     package_dir={'django_generator': 'django_generator'},
     packages=find_packages(exclude='test_app'),
     include_package_data=True,
